@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(216, 211, 211);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50vh; */
+    row-gap: 20px;
+}
+.container select{
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.container button{
+    border : none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: steelblue;
+    color:white;
+    cursor: pointer;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container div p{
+    font-size: 20px;
+}
+.tab{
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    width:80vw;
+}
